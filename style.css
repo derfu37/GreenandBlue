@@ -1,0 +1,501 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    box-sizing: border-box;
+}
+
+body {
+text-align: center;
+font-family: sans-serif;
+background: #171717;
+}
+
+img{
+    width: 100%;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 63px;
+    background: #171717;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+.navbar {
+    display: flex;
+    margin-right: 10px;
+}
+
+.logo {
+    margin-left: 30px;
+}
+
+
+.logo a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a {
+    display: block;
+    padding: 23px 20px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a:hover {
+    background: #373737;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.header {
+    height: 60vh !important;
+    background: url(img/azulyverde5.png) no-repeat center;
+    background-size: cover;
+    color: #fff;
+}
+
+.title{
+    margin-bottom: 40px;
+    font-size: 60px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+p{
+    margin-bottom: 40px;
+    font-size: 25px;
+}
+
+.btn{
+    width: 150px;
+    padding: 12px;
+    border-radius: 20px;
+    color: purple;
+    border: 3px solid #284cff;
+    cursor: pointer;
+    background-color: transparent;
+    background-image: url(img/boton.png);
+    background-repeat: repeat-x;
+    background-position: 0 -100%;
+    transition: 1.5s ease;
+}
+
+.btn:hover{
+    background-position: center;
+    color: rgb(255, 255, 255);
+}
+
+
+.content {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    
+}
+
+.elfaro{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 30px;
+    background: url(img/elfaro1.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #9c27b0;
+    justify-content: center;
+}
+
+
+.hide{
+    display: none;
+    padding: 30px;
+    background: url(img/fondosinlogo.png) no-repeat center;
+    background-size: cover;
+    color: white;
+    justify-content: center;
+    text-align: center;
+    height: auto;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.show{
+    display: block;
+}
+
+.filas{
+    display: flex;
+    padding: 5px;
+    flex-wrap: wrap;
+}
+
+.columnas{
+    flex: 25%;
+    padding: 5px;
+}
+
+.columnas img{
+    margin-top: 5px;
+}
+
+@media (max-width: 600px){
+    .columnas{
+        flex: 100%;
+        padding: 5px;
+    }
+}
+
+.tela{
+    padding-top: 30px;
+    padding-bottom: 0;
+    background: url(img/tela1.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #314192;
+    justify-content: center;
+}
+
+.omoa{
+    padding-top: 30px;
+    padding-bottom: 0;
+    background: url(img/omoa1.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #314192;
+    justify-content: center;
+}
+
+.venado{
+    padding-top: 30px;
+    padding-bottom: 0;
+    background: url(img/venado2.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #314192;
+    justify-content: center;
+}
+
+.ceiba{
+    padding-top: 30px;
+    padding-bottom: 0;
+    background: url(img/ceiba5.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #314192;
+    justify-content: center;
+}
+
+.pc{
+    padding-top: 30px;
+    padding-bottom: 0;
+    background: url(img/pr3.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #314192;
+    justify-content: center;
+}
+
+.pd{
+    padding-top: 30px;
+    padding-bottom: 0;
+    background: url(img/pd4.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #314192;
+    justify-content: center;
+}
+
+.pp{
+    padding-top: 30px;
+    padding-bottom: 0;
+    background: url(img/pp2.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #314192;
+    justify-content: center;
+}
+
+
+.cienaguita{
+    padding-top: 30px;
+    padding-bottom: 0;
+    background: url(img/cienaguita1.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #314192;
+    justify-content: center;
+}
+
+.mr{
+    padding-top: 30px;
+    padding-bottom: 0;
+    background: url(img/mr.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #314192;
+    justify-content: center;
+}
+
+.paya{
+    padding-top: 30px;
+    padding-bottom: 0;
+    background: url(img/paya5.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #314192;
+    justify-content: center;
+}
+
+.graham{
+    padding-top: 30px;
+    padding-bottom: 0;
+    background: url(img/graham3.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #314192;
+    justify-content: center;
+}
+
+.chepes{
+    padding-top: 30px;
+    padding-bottom: 0;
+    background: url(img/chepes2.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #314192;
+    justify-content: center;
+}
+
+.expo{
+    padding-top: 30px;
+    padding-bottom: 0;
+    background: url(img/expo3.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #314192;
+    justify-content: center;
+}
+
+.expo{
+    padding-top: 30px;
+    padding-bottom: 0;
+    background: url(img/expo1.jpg.png) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #314192;
+    justify-content
+}
+
+.eden{
+    padding-top: 30px;
+    padding-bottom: 0;
+    background: url(img/eden5.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #314192;
+    justify-content: center;
+}
+
+.westend{
+    padding-top: 30px;
+    padding-bottom: 0;
+    background: url(img/westend1.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #314192;
+    justify-content: center;
+}
+
+.chachauete{
+    padding-top: 30px;
+    padding-bottom: 0;
+    background: url(img/chachauete3.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #314192;
+    justify-content: center;
+}
+
+.panacam{
+    padding-top: 30px;
+    padding-bottom: 0;
+    background: url(img/panacam5.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #314192;
+    justify-content: center;
+}
+
+.micos{
+    padding-top: 30px;
+    padding-bottom: 0;
+    background: url(img/diez4.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #314192;
+    justify-content: center;
+}
+
+.pico{
+    padding-top: 30px;
+    padding-bottom: 0;
+    background: url(img/once1.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #314192;
+    justify-content: center;
+}
+
+.kawas{
+    padding-top: 30px;
+    padding-bottom: 0;
+    background: url(img/doce1.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #314192;
+    justify-content: center;
+}
+
+.lancetilla{
+    padding-top: 30px;
+    padding-bottom: 0;
+    background: url(img/trece1.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #314192;
+    justify-content: center;
+}
+
+.salado{
+    padding-top: 30px;
+    padding-bottom: 0;
+    background: url(img/catorce4.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #314192;
+    justify-content: center;
+}
+
+.tigra{
+    padding-top: 30px;
+    padding-bottom: 0;
+    background: url(img/dieciseis3.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #314192;
+    justify-content: center;
+}
+
+.angel{
+    padding-top: 30px;
+    padding-bottom: 0;
+    background: url(img/diecisiete3.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #314192;
+    justify-content: center;
+}
+
+.estrellas{
+    padding-top: 30px;
+    padding-bottom: 0;
+    background: url(img/dieciocho3.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #314192;
+    justify-content: center;
+}
+
+.caulato{
+    padding-top: 30px;
+    padding-bottom: 0;
+    background: url(img/diecinueve1.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #314192;
+    justify-content: center;
+}
+
+footer{
+    background: url(img/fondo.png);
+    background-size: cover;
+    height: auto;
+    width: 100vw ;
+    font-family: "Open Sans";
+    padding-top: 40px;
+    color: #fff;
+}
+
+.pie-pagina{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.pie-pagina h3{
+    font-size: 3.0rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+    color: yellow;
+    font-weight: bold;
+}
+
+.pie-pagina p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.nombres{
+    background: #171717;
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.nombres p{
+    font-size: 28px;
+    word-spacing: 10px;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+
+.nombres span{
+    text-transform: uppercase;
+    opacity: 4;
+    font-weight: 200;
+}
+
+
+
+
+
+
+
+
